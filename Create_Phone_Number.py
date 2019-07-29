@@ -49,7 +49,7 @@ def create_phone_number(n):
 
     for num in n[6:]:
         phone_number += str(num)
-    # phone_number = '(' + str(n[0:3]) + ') ' + str(n[4:6]) + '-' + str(n[7:])
+
     return phone_number
 # create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
 
