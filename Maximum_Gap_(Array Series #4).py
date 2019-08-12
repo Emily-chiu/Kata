@@ -15,13 +15,8 @@
 
 def max_gap(numbers):
     max_number = 0
-    # print(sorted(numbers))
     numbers.sort()
     for i in range(len(numbers)-1):
-        # print('numbers[',i,']=',numbers[i])
-        # print('numbers[',i+1,']=',numbers[i+1])
-        # print(numbers[i] - numbers[i+1])
-        # print(- (numbers[i] - numbers[i+1]))
         if (numbers[i] - numbers[i+1]) < 0:
             if (-(numbers[i] - numbers[i+1])) > max_number:
                 max_number = (-(numbers[i] - numbers[i+1]))
@@ -29,7 +24,6 @@ def max_gap(numbers):
         else:
             if (numbers[i] - numbers[i+1]) > max_number:
                 max_number = (numbers[i] - numbers[i+1])
-        # print
     
     return max_number
 
