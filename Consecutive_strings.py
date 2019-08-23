@@ -48,10 +48,6 @@ def longest_consec(strarr, k):
 
 #     return result
 
-
-
-
-
 print(longest_consec(["zone", "abigail", "theta", "form", "libe", "zas"], 2)) # "abigailtheta"
 print(longest_consec(["ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh"], 1)) # "oocccffuucccjjjkkkjyyyeehh"
 print(longest_consec([], 3)) # ""
